@@ -8,6 +8,7 @@
  - <a href="https://www.codewars.com/kata/5265326f5fda8eb1160004c8">Convert a Number to a String!</a>
  - <a href="https://www.codewars.com/kata/55685cd7ad70877c23000102">Return Negative</a>
  - <a href="https://www.codewars.com/kata/57a0e5c372292dd76d000d7e">String repeat</a>
+ - <a href="https://www.codewars.com/kata/5715eaedb436cf5606000381">Sum of positive</a>
  
  ## 7 Kyu
  - <a href="https://www.codewars.com/kata/54ff3102c1bad923760001f3">Vowel Count</a>
