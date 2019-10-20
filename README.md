@@ -14,3 +14,6 @@
  - <a href="https://www.codewars.com/kata/54ff3102c1bad923760001f3">Vowel Count</a>
  - <a href="https://www.codewars.com/kata/5467e4d82edf8bbf40000155">Descending Order</a>
  - <a href="https://www.codewars.com/kata/56747fd5cb988479af000028/">Get the Middle Character</a>
+ 
+ ## 6 Kyu
+ - <a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a>
