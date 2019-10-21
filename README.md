@@ -18,6 +18,7 @@
  - <a href="https://www.codewars.com/kata/5467e4d82edf8bbf40000155">Descending Order</a>
  - <a href="https://www.codewars.com/kata/56747fd5cb988479af000028">Get the Middle Character</a>
  - <a href="https://www.codewars.com/kata/554b4ac871d6813a03000035">Highest and Lowest</a>
+ - <a href="https://www.codewars.com/kata/563b662a59afc2b5120000c6">Growth of a Population</a>
  
  ## 6 Kyu
  - <a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a>
