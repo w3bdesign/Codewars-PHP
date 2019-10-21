@@ -76,11 +76,9 @@ function dirReduc($array)
     foreach ($array as $value) {
         if (end($stack) == $ops[$value]) {
             array_pop($stack);
-        } else {
-            $stack[] = $value;
-        }
+        } 
+        $stack[] = $value;        
     }
-
     return $stack;
 }
 ?>
