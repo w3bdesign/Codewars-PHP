@@ -1,3 +1,4 @@
+<?php
 /*
 Write a function called repeatString which repeats the given String src exactly count times.
 
@@ -7,5 +8,6 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 
 function repeatStr($n, $str)
 {
-return str_repeat($str, $n);
+    return str_repeat($str, $n);
 }
+?>

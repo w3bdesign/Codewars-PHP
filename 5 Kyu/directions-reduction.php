@@ -1,3 +1,4 @@
+<?php
 /*
 Once upon a time, on a way through the old wild west,…
 
@@ -83,3 +84,4 @@ function dirReduc($arr)
 
     return $stack;
 }
+?>

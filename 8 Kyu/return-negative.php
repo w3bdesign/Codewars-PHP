@@ -1,3 +1,4 @@
+<?php
 /*
 In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
 
@@ -14,7 +15,9 @@ Notes:
     Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
 */
 
-function makeNegative(float $num) : float {
-// Use ternary operator to return -$num if $num is greater than 0, else return $num
-return $num > 0 ? -$num : $num;
+function makeNegative(float $num) : float
+{
+    // Use ternary operator to return -$num if $num is greater than 0, else return $num
+    return $num > 0 ? -$num : $num;
 }
+?>

@@ -1,3 +1,4 @@
+<?php
 /*
 Get the number n (n>0) to return the reversed sequence from n to 1.
 
@@ -19,4 +20,5 @@ function reverseSeq($n)
 function reverseSeq($n)
 {
     return range($n, 1);
-};
+}
+?>
