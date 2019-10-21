@@ -1,7 +1,8 @@
 # Codewars-PHP
 <img src="https://www.codewars.com/users/w3bdesign/badges/large">
 
- PHP solutions for Codewars, sorted by difficulty. 1 = hardest, 8 = easiest
+ Solving various <a href="http://www.codewars.com>Codewars</a> PHP problems and sharing the solutions in this repository.
+ Sorted by difficulty. 1 = hardest, 8 = easiest
  
  ## 8 Kyu
  - <a href="https://www.codewars.com/kata/57eae20f5500ad98e50002c5">Reversed String</a>
