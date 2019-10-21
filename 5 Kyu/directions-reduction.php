@@ -73,7 +73,7 @@ function dirReduc($array)
 {
     $ops = ['NORTH' => 'SOUTH', 'SOUTH' => 'NORTH', 'EAST' => 'WEST', 'WEST' => 'EAST'];
     $stack = [];
-    foreach ($array as $key => $value) {
+    foreach ($array as $value) {
         if (end($stack) == $ops[$value]) {
             array_pop($stack);
         } else {
