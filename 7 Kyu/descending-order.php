@@ -10,13 +10,11 @@ Input: 145263 Output: 654321
 Input: 1254859723 Output: 9875543221
 */
 
-function descendingOrder(int $n): int
+function descendingOrder(int $number): int
 {
 
-    $arrayNumber = str_split($n);
+    $arrayNumber = str_split($number);
     arsort($arrayNumber);
     return (int) implode($arrayNumber);
-
-
 }
 ?>
