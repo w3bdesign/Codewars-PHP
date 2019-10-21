@@ -12,9 +12,9 @@ basicOp('*', 5, 5)         // Output: 25
 basicOp('/', 49, 7)        // Output: 7
 */
 
-function basicOp($op, $val1, $val2)
+function basicOp($operator, $val1, $val2)
 {
-    switch ($op)
+    switch ($operator)
     {
     case "+": 
         return $val1 + $val2;
