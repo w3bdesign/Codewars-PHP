@@ -59,9 +59,8 @@ function dirReduc($array)
     while ($index < $array_count){
         if($opposite[$array[$index]] == end($stack)) {
             array_pop($stack);
-        }else{
-            array_push($stack, $array[$index]);
-        }
+        }           
+        array_push($stack, $array[$index]);
         $index++;
     }
     return $stack;
