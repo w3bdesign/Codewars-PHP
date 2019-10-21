@@ -47,8 +47,7 @@ Write a function dirReduc which will take an array of strings and returns an arr
 
 function dirReduc($array)
 { 
-    $stack = [];
-    $st = [];
+    $stack = [];    
     $opposite = array(
         "NORTH" => "SOUTH",
         "EAST" => "WEST",
@@ -70,15 +69,15 @@ function dirReduc($array)
 
 // Alternate solution:
 
-function dirReduc($arr)
+function dirReduc($array)
 {
     $ops = ['NORTH' => 'SOUTH', 'SOUTH' => 'NORTH', 'EAST' => 'WEST', 'WEST' => 'EAST'];
     $stack = [];
-    foreach ($arr as $k => $v) {
-        if (end($stack) == $ops[$v]) {
+    foreach ($array as $key => $value) {
+        if (end($stack) == $ops[$value]) {
             array_pop($stack);
         } else {
-            $stack[] = $v;
+            $stack[] = $value;
         }
     }
 
