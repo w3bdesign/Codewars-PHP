@@ -31,9 +31,7 @@ function getMiddle($text)
         $returnedText = $text[$middle-1];
         $returnedText.= $text[$middle];
     }
-    else {
-        $returnedText.= $text[$middle];
-    }
+    $returnedText.= $text[$middle];
     return $returnedText;
 
 }
