@@ -28,18 +28,18 @@ nb_year(1500000, 2.5, 10000, 2000000) -> 10
 Note: Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
 */
 
-function nbYear($p0, $percent, $aug, $p)
+function nbYear($startpeople, $percent, $aug, $endpeople)
 {
     $counter = 0;
-    for ($counter; $p0 < $p; $counter++) {
-        $p0 = $p0 * (1 + $percent / 100) + $aug ;    
+    for ($counter; $startpeople < $endpeople; $counter++) {
+        $startpeople = $startpeople * (1 + $percent / 100) + $aug ;    
     }
       return $counter;
 }
 
 // Alternate solution with ternary:
-function nbYear($p0, $percent, $aug, $p)
+function nbYear($startpeople, $percent, $aug, $endpeople)
 {
-    return $p0 >= $p ? 0 : 1 + nbYear((int)$p0 * (1+$percent/100) + $aug, $percent, $aug, $p);   
+    return $startpeople >= $endpeople ? 0 : 1 + nbYear((int)$startpeople * (1+$percent/100) + $aug, $percent, $aug, $endpeople);   
 }
 ?>
