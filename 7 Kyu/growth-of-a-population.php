@@ -36,4 +36,10 @@ function nbYear($p0, $percent, $aug, $p)
     }
       return $counter;
 }
+
+// Alternate solution with ternary:
+function nbYear($p0, $percent, $aug, $p)
+{
+    return $p0 >= $p ? 0 : 1 + nbYear((int)$p0 * (1+$percent/100) + $aug, $percent, $aug, $p);   
+}
 ?>
