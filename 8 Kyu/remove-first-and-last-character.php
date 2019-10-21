@@ -3,9 +3,9 @@
  * It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. 
  * You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
  */
-function Remove_Char(string $s)
+function Remove_Char(string $string)
 {
-    $removeFirst = substr($s, 1);
+    $removeFirst = substr($string, 1);
     $finalString = substr($removeFirst, 0, strlen($removeFirst)-1);
     return $finalString;
 }
@@ -14,8 +14,8 @@ function Remove_Char(string $s)
  * Alternate solution
  */
 
-function Remove_Char(string $s)
+function Remove_Char(string $string)
 {
-    return substr($s, 1, -1);
+    return substr($string, 1, -1);
 }
 ?>

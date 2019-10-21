@@ -9,8 +9,8 @@ numberToString(123); // returns '123';`
 numberToString(999); // returns '999';`
 */
 
-function no_space(string $s): string
+function no_space(string $string): string
 {
-    return str_replace(' ', '', $s);
+    return str_replace(' ', '', $string);
 }
 ?>
