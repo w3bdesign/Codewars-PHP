@@ -16,6 +16,7 @@ Sorted by difficulty. 1 = hardest, 8 = easiest
 -<a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0">Remove First and Last Character</a><br/>
 -<a href="https://www.codewars.com/kata/5a00e05cc374cb34d100000d">Reversed sequence </a><br/>
 -<a href="https://www.codewars.com/kata/57356c55867b9b7a60000bd7">Basic Mathematical Operations</a> <br/>
+-<a href="https://www.codewars.com/kata/5601409514fc93442500010b>How good are you really?</a>
  
 ## 7 Kyu
 -<a href="https://www.codewars.com/kata/54ff3102c1bad923760001f3">Vowel Count</a><br/>
