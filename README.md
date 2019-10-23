@@ -1,7 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b0cd3c35ac394745958dd1b803cafe95)](https://www.codacy.com/manual/w3bdesign/Codewars-PHP?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=w3bdesign/Codewars-PHP&amp;utm_campaign=Badge_Grade)
 
 # Codewars-PHP
-<img src="https://www.codewars.com/users/w3bdesign/badges/large">
+<a href="https://www.codewars.com/users/w3bdesign"><img src="https://www.codewars.com/users/w3bdesign/badges/large"></a>
 
 Solving various <a href="http://www.codewars.com">Codewars</a> PHP problems and sharing the solutions in this repository.
  
