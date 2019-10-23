@@ -12,7 +12,7 @@ persistence(4) === 0; // because 4 is already a one-digit number
 function persistence(int $num): int
 {
     $total = 1;
-    $numArray = str_split((string)$num);
+    $numArray = str_split($num);
     $count = 0;
   
     if (count($numArray) > 1) {
