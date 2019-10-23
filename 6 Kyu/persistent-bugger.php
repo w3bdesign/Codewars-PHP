@@ -9,23 +9,21 @@ persistence(999) === 4; // because 9 * 9 * 9 = 729, 7 * 2 * 9 = 126, 1 * 2 * 6 =
 persistence(4) === 0; // because 4 is already a one-digit number
 */
 
-function persistence(int $num): int {
-  $total = 1;
-  $numArray = str_split((string)$num);
-  $count = 0;
+function persistence(int $num): int
+{
+    $total = 1;
+    $numArray = str_split((string)$num);
+    $count = 0;
   
-if (count($numArray) > 1) {
-    for ($i = 0; $i < count($numArray); $i++) {
-        $total *= $numArray[$i];      
-    }
-    $count++;
-    if (strlen($total) > 1) {
-        return $count + persistence($total);
-    } else {
-        return $count;
-    }
-} else {
-    return $count;
+    if (count($numArray) > 1) {
+        for ($i = 0; $i < count($numArray); $i++) {
+            $total *= $numArray[$i];      
+        }
+        $count++;
+        if (strlen($total) > 1) {
+            return $count + persistence($total);
+        }  return $count;
+    }  return $count;    
 }
 
 ?>
