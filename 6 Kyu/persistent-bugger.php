@@ -26,7 +26,7 @@ function persistence(int $num): int
     }  return $count;    
 }
 
-// Alternate solution
+// Alternate solution - array_product multiplies all values in the array, so we wont need to use a loop
 
 function persistence(int $num): int
 {
