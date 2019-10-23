@@ -28,7 +28,7 @@ Sorted by difficulty. 1 = hardest, 8 = easiest
 ## 6 Kyu
 -<a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a><br/>
 -<a href="https://www.codewars.com/kata/54da5a58ea159efa38000836">Find the odd int</a><br/>
--<a href="https://www.codewars.com/kata/persistent-bugger/">Persistent Bugger.</a>
+-<a href="https://www.codewars.com/kata/persistent-bugger/">Persistent Bugger</a>
  
 ## 5 Kyu
 -<a href="https://www.codewars.com/kata/550f22f4d758534c1100025a">Directions Reduction</a><br/>
