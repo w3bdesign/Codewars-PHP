@@ -1,3 +1,4 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/w3bdesign/Codewars-PHP/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/w3bdesign/Codewars-PHP/?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b0cd3c35ac394745958dd1b803cafe95)](https://www.codacy.com/manual/w3bdesign/Codewars-PHP?utm_source=github.com&utm_medium=referral&utm_content=w3bdesign/Codewars-PHP&utm_campaign=Badge_Grade)
 
 # Codewars-PHP
