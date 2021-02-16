@@ -9,6 +9,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 
 function solution($number)
 {
+    $sum = 0;
     for ( $i = 3; $i < $number; $i++) {
 
         if ($i % 3 === 0 || $i % 5 === 0) {   
@@ -20,7 +21,7 @@ function solution($number)
 
 // Alternate solution:
 
-function solution($number)
+function altSolution($number)
 {
     return array_sum(
         array_filter(
@@ -30,4 +31,3 @@ function solution($number)
         )
     );
 }
-?>
