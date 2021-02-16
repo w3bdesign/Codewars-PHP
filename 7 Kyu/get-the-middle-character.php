@@ -35,7 +35,6 @@ function getMiddle($text)
     return $returnedText;
 }
 
-
 // Alternative method:
 
 function altgetMiddle($text)
