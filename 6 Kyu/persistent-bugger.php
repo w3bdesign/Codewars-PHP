@@ -9,14 +9,24 @@ persistence(999) === 4; // because 9 * 9 * 9 = 729, 7 * 2 * 9 = 126, 1 * 2 * 6 =
 persistence(4) === 0; // because 4 is already a one-digit number
 */
 
+/**
+ * persistence
+ *
+ * @param  int $num
+ * @return int
+ */
 function persistence(int $num): int
 {
+    // Ensure that $num is an integer
+    $num = (int)$num;
     $total = 1;
+    
     $numArray = str_split($num);
+    $numArrayCount = count($numArray);
     $count = 0;
   
-    if (count($numArray) > 1) {
-        for ($i = 0; $i < count($numArray); $i++) {
+    if ($numArrayCount > 1) {
+        for ($i = 0; $i < $numArrayCount; $i++) {
             $total *= $numArray[$i];      
         }
         $count++;
@@ -28,8 +38,16 @@ function persistence(int $num): int
 
 // Alternate solution - array_product multiplies all values in the array, so we wont need to use a loop
 
-function persistence(int $num): int
+/**
+ * altPersistence
+ *
+ * @param  mixed $num
+ * @return int
+ */
+function altPersistence(int $num): int
 {
+    // Ensure that $num is an integer
+    $num = (int)$num;
     $count = 0;
     while ($num > 9) {
         $num = array_product(str_split($num));
@@ -38,5 +56,3 @@ function persistence(int $num): int
   
     return $count;
 }
-
-?>
