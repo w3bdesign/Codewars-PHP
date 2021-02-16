@@ -23,6 +23,7 @@ The middle character(s) of the word represented as a string.
 
 function getMiddle($text)
 {
+    $returnedText = "";
     $length = strlen($text);
     $middle = $length / 2;
 
