@@ -64,7 +64,7 @@ function dirReduc($array)
 
 // Alternate solution:
 
-function dirReduc($array)
+function altdirReduc($array)
 {
     $ops = ['NORTH' => 'SOUTH', 'SOUTH' => 'NORTH', 'EAST' => 'WEST', 'WEST' => 'EAST'];
     $stack = [];
@@ -76,4 +76,3 @@ function dirReduc($array)
     }
     return $stack;
 }
-?>
