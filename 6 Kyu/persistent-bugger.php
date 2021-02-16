@@ -22,6 +22,10 @@ function persistence(int $num): int
     $total = 1;
     
     $numArray = str_split($num);
+    // Additional type check
+    if (true===$numArray) {
+        return 0;
+    }
     $numArrayCount = count($numArray);
     $count = 0;
   
