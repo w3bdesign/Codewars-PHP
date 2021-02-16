@@ -18,8 +18,8 @@ Input: 1254859723 Output: 9875543221
  */
 function descendingOrder(int $number): int
 {
-  $number = (int)$number;
-  $arrayNumber = str_split($number);
-  arsort($arrayNumber);
-  return (int) implode($arrayNumber);
+    $number = (int)$number;
+    $arrayNumber = str_split($number);
+    arsort($arrayNumber);
+    return (int) implode($arrayNumber);
 }

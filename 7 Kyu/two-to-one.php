@@ -20,16 +20,14 @@ function longest($a, $b)
     $arrayString = str_split($combinedString);
     $uniqueString = array_unique($arrayString);
     sort($uniqueString);
-    return implode($uniqueString);      
+    return implode($uniqueString);
 }
 
 // Alternate solution
 
-function longest($a, $b)
+function altlongest($a, $b)
 {
     $chars = array_unique(str_split($a . $b));
     sort($chars);
     return implode('', $chars);
 }
-
-?>

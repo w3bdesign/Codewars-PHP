@@ -16,18 +16,17 @@ Notes:
 */
 
 function highAndLow($numbers)
-{  
+{
     $splitNumbers = explode(" ", $numbers);
     $highestNumber = max($splitNumbers);
     $lowestNumber = min($splitNumbers);
-    return "$highestNumber $lowestNumber";  
+    return "$highestNumber $lowestNumber";
 }
 
 // Alternate solution
 
-function highAndLow($numbers)
-{  
-    $splitNumbers = explode(" ", $numbers);    
-    return max($splitNumbers) . " " . min($splitNumbers);  
+function althighAndLow($numbers)
+{
+    $splitNumbers = explode(" ", $numbers);
+    return max($splitNumbers) . " " . min($splitNumbers);
 }
-?>

@@ -14,20 +14,20 @@ Your points are not included in the array of your class's points. For calculatin
 function betterThanAverage($classPoints, $yourPoints)
 {
     $average = array_sum($classPoints)/count($classPoints);
-    if($average < $yourPoints) { return true;
+    if ($average < $yourPoints) {
+        return true;
     }
-    return false;  
+    return false;
 }
 
-    // Alternate solution with ternary operator
-function betterThanAverage($classPoints, $yourPoints)
+// Alternate solution with ternary operator
+function altbetterThanAverage($classPoints, $yourPoints)
 {
     return array_sum($classPoints)/count($classPoints) < $yourPoints ? true : false;
 }
 
 // Another solution
-function betterThanAverage($classPoints, $yourPoints)
+function secaltbetterThanAverage($classPoints, $yourPoints)
 {
     return array_sum($classPoints) / count($classPoints) < $yourPoints;
 }
-?>

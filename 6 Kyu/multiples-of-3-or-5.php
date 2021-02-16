@@ -10,9 +10,8 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 function solution($number)
 {
     $sum = 0;
-    for ( $i = 3; $i < $number; $i++) {
-
-        if ($i % 3 === 0 || $i % 5 === 0) {   
+    for ($i = 3; $i < $number; $i++) {
+        if ($i % 3 === 0 || $i % 5 === 0) {
             $sum += $i;
         }
     }
@@ -25,7 +24,8 @@ function altSolution($number)
 {
     return array_sum(
         array_filter(
-            range(1, $number-1), function ($item) {
+            range(1, $number-1),
+            function ($item) {
                 return $item % 3 == 0 || $item % 5 == 0;
             }
         )

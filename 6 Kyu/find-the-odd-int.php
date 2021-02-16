@@ -13,23 +13,19 @@ There will always be only one integer that appears an odd number of times.
  */
 function findIt(array $arr) : int
 {
-    
-    $count = 0; 
+    $count = 0;
     $arrCount = count($arr);
-    for ($i = 0;  $i < $arrCount; $i++)  
-    { 
-          
-        for ($j = 0; $j < $arrCount; $j++) 
-        { 
-            if ($arr[$i] == $arr[$j]) { 
+    for ($i = 0;  $i < $arrCount; $i++) {
+        for ($j = 0; $j < $arrCount; $j++) {
+            if ($arr[$i] == $arr[$j]) {
                 $count++;
-            } 
-        } 
-        if ($count % 2 != 0) { 
+            }
+        }
+        if ($count % 2 != 0) {
             return $arr[$i];
-        } 
-    } 
-    return -1; 
+        }
+    }
+    return -1;
 }
 
 // Alternate solution:
@@ -48,5 +44,5 @@ function altfindIt(array $seq) : mixed
             return $key;
         }
     }
-    return -1; 
+    return -1;
 }

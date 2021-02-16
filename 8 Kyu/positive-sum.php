@@ -9,14 +9,11 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 function positive_sum($arr)
 {
-   
-    foreach ($arr as $value)
-    {
-        if($value > 0) { $sum += $value; 
+    $sum = 0;
+    foreach ($arr as $value) {
+        if ($value > 0) {
+            $sum += $value;
         }
-  
     }
-    return $sum; 
-  
+    return $sum;
 }
-?>

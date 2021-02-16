@@ -42,8 +42,8 @@ Write a function dirReduc which will take an array of strings and returns an arr
 */
 
 function dirReduc($array)
-{ 
-    $stack = [];    
+{
+    $stack = [];
     $opposite = array(
         "NORTH" => "SOUTH",
         "EAST" => "WEST",
@@ -52,10 +52,10 @@ function dirReduc($array)
     );
     $array_count = count($array);
     $index = 0;
-    while ($index < $array_count){
-        if($opposite[$array[$index]] == end($stack)) {
+    while ($index < $array_count) {
+        if ($opposite[$array[$index]] == end($stack)) {
             array_pop($stack);
-        }           
+        }
         array_push($stack, $array[$index]);
         $index++;
     }
@@ -71,8 +71,8 @@ function altdirReduc($array)
     foreach ($array as $value) {
         if (end($stack) == $ops[$value]) {
             array_pop($stack);
-        } 
-        $stack[] = $value;        
+        }
+        $stack[] = $value;
     }
     return $stack;
 }

@@ -10,4 +10,3 @@ function repeatStr($number, $str)
 {
     return str_repeat($str, $number);
 }
-?>

@@ -23,23 +23,21 @@ The middle character(s) of the word represented as a string.
 
 function getMiddle($text)
 {
-
     $length = strlen($text);
     $middle = $length / 2;
 
-    if($length % 2 == 0) {
+    if ($length % 2 == 0) {
         $returnedText = $text[$middle-1];
         $returnedText.= $text[$middle];
     }
     $returnedText.= $text[$middle];
     return $returnedText;
-
 }
 
 
 // Alternative method:
 
-function getMiddle($text)
+function altgetMiddle($text)
 {
     $len = strlen($text);
     if ($len % 2 === 0) {
@@ -47,4 +45,3 @@ function getMiddle($text)
     }
     return substr($text, $len / 2, 1);
 }
-?>

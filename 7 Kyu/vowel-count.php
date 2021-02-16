@@ -9,8 +9,7 @@ The input string will only consist of lower case letters and/or spaces.
 
 function getCount($str)
 {
-    // Use regex to get the count 
+    // Use regex to get the count
     //return preg_match_all('/[aeiou]/i', $str, $matches);
     return preg_match_all('/[aeiou]/i', $str);
 }
-?>

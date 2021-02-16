@@ -27,13 +27,15 @@ function persistence(int $num): int
   
     if ($numArrayCount > 1) {
         for ($i = 0; $i < $numArrayCount; $i++) {
-            $total *= $numArray[$i];      
+            $total *= $numArray[$i];
         }
         $count++;
         if (strlen($total) > 1) {
             return $count + persistence($total);
-        }  return $count;
-    }  return $count;    
+        }
+        return $count;
+    }
+    return $count;
 }
 
 // Alternate solution - array_product multiplies all values in the array, so we wont need to use a loop

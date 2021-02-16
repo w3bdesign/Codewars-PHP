@@ -14,16 +14,14 @@ basicOp('/', 49, 7)        // Output: 7
 
 function basicOp($operator, $val1, $val2)
 {
-    switch ($operator)
-    {
-    case "+": 
+    switch ($operator) {
+    case "+":
         return $val1 + $val2;
-    case "-": 
+    case "-":
         return $val1 - $val2;
-    case "*": 
+    case "*":
         return $val1 * $val2;
-    case "/": 
+    case "/":
         return $val1 / $val2;
     }
 }
-?>
