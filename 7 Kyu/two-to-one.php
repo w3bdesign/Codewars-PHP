@@ -14,20 +14,20 @@ a = "abcdefghijklmnopqrstuvwxyz"
 longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 */
 
-function longest($a, $b)
+function longest($stringone, $stringtwo)
 {
-    $combinedString = $a . $b;
-    $arrayString = str_split($combinedString);
-    $uniqueString = array_unique($arrayString);
+    $combinedString = $stringone . $stringtwo;
+    $stringonerrayString = str_split($combinedString);
+    $uniqueString = array_unique($stringonerrayString);
     sort($uniqueString);
     return implode($uniqueString);
 }
 
 // Alternate solution
 
-function altlongest($a, $b)
+function altlongest($stringone, $stringtwo)
 {
-    $chars = array_unique(str_split($a . $b));
+    $chars = array_unique(str_split($stringone . $stringtwo));
     sort($chars);
     return implode('', $chars);
 }
