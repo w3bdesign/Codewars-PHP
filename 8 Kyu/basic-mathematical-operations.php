@@ -12,16 +12,16 @@ basicOp('*', 5, 5)         // Output: 25
 basicOp('/', 49, 7)        // Output: 7
 */
 
-function basicOp($operator, $val1, $val2)
+function basicOp($operator, $value1, $value2)
 {
     switch ($operator) {
     case "+":
-        return $val1 + $val2;
+        return $value1 + $value2;
     case "-":
-        return $val1 - $val2;
+        return $value1 - $value2;
     case "*":
-        return $val1 * $val2;
+        return $value1 * $value2;
     case "/":
-        return $val1 / $val2;
+        return $value1 / $value2;
     }
 }
