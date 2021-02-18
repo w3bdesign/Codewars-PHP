@@ -1,8 +1,7 @@
 <?php
 /*
-Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, the longest possible, containing distinct letters,
-
-    each taken only once - coming from s1 or s2.
+Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, the longest possible, 
+containing distinct letters, each taken only once - coming from s1 or s2.
 
 Examples:
 
@@ -18,6 +17,7 @@ function longest($stringone, $stringtwo)
 {
     $combinedString = $stringone . $stringtwo;
     $stringonerrayString = str_split($combinedString);
+    $stringonerrayString = (array)$stringonerrayString;
     $uniqueString = array_unique($stringonerrayString);
     sort($uniqueString);
     return implode($uniqueString);
@@ -27,7 +27,9 @@ function longest($stringone, $stringtwo)
 
 function altlongest($stringone, $stringtwo)
 {
-    $chars = array_unique(str_split($stringone . $stringtwo));
+    $stringToSplit = str_split($stringone . $stringtwo);
+    $stringToSplit = (array)$stringToSplit;
+    $chars = array_unique($stringToSplit);
     sort($chars);
     return implode('', $chars);
 }
