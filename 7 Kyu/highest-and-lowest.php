@@ -30,3 +30,9 @@ function althighAndLow($numbers)
     $splitNumbers = explode(" ", $numbers);
     return max($splitNumbers) . " " . min($splitNumbers);
 }
+// Alternate solution #2
+
+function highAndLow($numbers) {
+  $a = explode(' ', $numbers);
+  return max($a) . " " . min($a);
+}
